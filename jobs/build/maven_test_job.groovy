@@ -6,7 +6,8 @@ pipelineJob('BUILD--example-maven-project') {
             scm {
                 git {
                     remote {
-                        url('https://github.com/Signpost6/jenkins-example-java-project.git')
+                        url('git@github.com:Signpost6/jenkins-example-java-project.git')
+                        credentials("vcetinick-sp6")
                     }
                     branch('*/master')
                 }
