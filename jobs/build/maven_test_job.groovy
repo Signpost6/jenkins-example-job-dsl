@@ -1,6 +1,6 @@
 package build
 
-pipelineJob('example-maven-project') {
+pipelineJob('BUILD--example-maven-project') {
     definition {
         cpsScm {
             scm {
