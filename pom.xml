@@ -9,6 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>jenkins-example-job-dsl</name>
+
     <properties>
         <groovy-version>2.4.12</groovy-version>
     </properties>
@@ -89,6 +90,7 @@
             <url>https://repo.jenkins-ci.org/releases/</url>
         </repository>
     </repositories>
+
 </project>
 
 
